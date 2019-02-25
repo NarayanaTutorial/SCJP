@@ -10,7 +10,5 @@ public class Mycomparator implements Comparator<Object> {
 		String s1 = (String) obj1;
 		String s2 = (String) obj2;
 		return s2.compareTo(s1);
-
 	}
-
 }
